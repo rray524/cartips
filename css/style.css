@@ -15,6 +15,7 @@
                                     a:hover,
                                     a:active {
                                         outline: none;
+
                                     }
                                     /*header area*/
                                     
@@ -25,10 +26,11 @@
                                     .logo_area {
                                         position: relative;
                                         z-index: 2;
+                                        
                                     }
                                     
                                     .gregg {
-                                        text-align: right;
+                                        text-align: right;    
                                     }
                                     /*tab content area*/
                                     
