@@ -1021,17 +1021,7 @@
                                         height: 23px;
                                         position: absolute;
                                         right: -1px;
-                                        top: 6500px;
-                                        width: 65px;
-                                    }
-                                    
-                                    a.hr-eight::after {
-                                        background-image: url("../img/top.png");
-                                        content: "";
-                                        height: 23px;
-                                        position: absolute;
-                                        right: -1px;
-                                        top: 6412px;
+                                        top: 6414px;
                                         width: 65px;
                                     }
                                     
