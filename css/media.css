@@ -565,8 +565,13 @@ select {
 .pnl-type > li {
   list-style: outside none none;
 }
+.col-sm-12.rem-pad {
+  padding-right: 0;
+}
 
-
+.tab-body {
+  padding-left: 0;
+}
 
 }
 /*extra media quaries*/
