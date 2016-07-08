@@ -547,9 +547,15 @@ select {
 .left-table-1 {
   border-left: medium none;
 }
-
-
-
+.list-two li {
+  list-style: outside none none;
+}
+.list-ordered li {
+  list-style: outside none none;
+}
+.list-details li {
+  list-style: outside none none;
+}
 
 
 
