@@ -538,7 +538,7 @@ select {
 }
 .pnl-type a {
   font-size: 11px;
-  line-height: 21px;
+  line-height: 27px;
 }
 .pnl-type {
   padding-left: 0;
@@ -560,6 +560,9 @@ select {
   list-style: outside none none;
 }
 .term > li {
+  list-style: outside none none;
+}
+.pnl-type > li {
   list-style: outside none none;
 }
 
