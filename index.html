@@ -1219,22 +1219,7 @@ Legal Stuff</h6>
             });
         });
     </script>
-    <script>
-        $( document ).ready(function() {
-              $.getScript('http://realcartips.disqus.com/embed.js', function() {
-            var loader = setInterval(function() {
-              if($('#disqus_thread').html().length) {
-                clearInterval(loader);
-                disqusReady();
-              }
-            }, 1000);
-          });
-          function disqusReady() {
-            $('#dsq-new-post h3').text('Submit Your Question or Comment');
-            $('#dsq-comments-title h3').hide();
-          } 
-});
-    </script>
+
 
 </body>
 
