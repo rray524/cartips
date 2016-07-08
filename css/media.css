@@ -556,8 +556,12 @@ select {
 .list-details li {
   list-style: outside none none;
 }
-
-
+.car > li {
+  list-style: outside none none;
+}
+.term > li {
+  list-style: outside none none;
+}
 
 
 
