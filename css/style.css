@@ -947,97 +947,24 @@
                                         width: 100%;
                                         background-color: #7AA03D;
                                         height: 4px;
+                                        margin-bottom: 0;
+                                        
                                     }
+                                    .top {
+                                          background: #7aa03d none repeat scroll 0 0;
+                                          border-radius: 0 0 0 5px;
+                                          color: #fff;
+                                          display: inline;
+                                          float: right;
+                                          font: 11px arial;
+                                          padding: 4px;
+                                        }
+                                    a.scroll,a.scroll:hover,a.scroll:focus {
+                                              color: #fff;
+                                              text-decoration: underline;
+                                          }
+                    
                                     
-                                    a.hr-one::after {
-                                        background-image: url("../img/top.png");
-                                        content: "";
-                                        height: 23px;
-                                        position: absolute;
-                                        right: -1px;
-                                        top: 900px;
-                                        width: 65px;
-                                    }
-                                    
-                                    a.hr-two::after {
-                                        background-image: url("../img/top.png");
-                                        content: "";
-                                        height: 23px;
-                                        position: absolute;
-                                        right: -1px;
-                                        top: 1403px;
-                                        width: 65px;
-                                    }
-                                    
-                                    a.hr-three::after {
-                                        background-image: url("../img/top.png");
-                                        content: "";
-                                        height: 23px;
-                                        position: absolute;
-                                        right: -1px;
-                                        top: 2786px;
-                                        width: 65px;
-                                    }
-                                    
-                                    a.hr-four::after {
-                                        background-image: url("../img/top.png");
-                                        content: "";
-                                        height: 23px;
-                                        position: absolute;
-                                        right: -1px;
-                                        top: 3568px;
-                                        width: 65px;
-                                    }
-                                    
-                                    a.hr-five::after {
-                                        background-image: url("../img/top.png");
-                                        content: "";
-                                        height: 23px;
-                                        position: absolute;
-                                        right: -1px;
-                                        top: 4267px;
-                                        width: 65px;
-                                    }
-                                    
-                                    a.hr-six::after {
-                                        background-image: url("../img/top.png");
-                                        content: "";
-                                        height: 23px;
-                                        position: absolute;
-                                        right: -1px;
-                                        top: 5070px;
-                                        width: 65px;
-                                    }
-                                    
-                                    a.hr-seven::after {
-                                        background-image: url("../img/top.png");
-                                        content: "";
-                                        height: 23px;
-                                        position: absolute;
-                                        right: -1px;
-                                        top: 5769px;
-                                        width: 65px;
-                                    }
-                                    
-                                    a.hr-eight::after {
-                                        background-image: url("../img/top.png");
-                                        content: "";
-                                        height: 23px;
-                                        position: absolute;
-                                        right: -1px;
-                                        top: 6412px;
-                                        width: 65px;
-                                    }
-                                    
-                                    a.hr-nine::after {
-                                        background-image: url("../img/top.png");
-                                        content: "";
-                                        height: 23px;
-                                        position: absolute;
-                                        right: -1px;
-                                        top: 7027px;
-                                        width: 65px;
-                                    }
                                     
                                     .main > img {
                                         padding-bottom: 19px;
