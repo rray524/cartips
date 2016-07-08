@@ -26,7 +26,6 @@ width: 36px;
 bottom: 210px;
 }
 .flex-direction-nav li a.prev {
-
 bottom: 165px;
 }
 .table-list-area > h1 {
@@ -38,7 +37,6 @@ padding-left: 14px;
 .part-one {
 height: 96px;
 }
-
 }
 /*tab view*/
 @media (min-width:768px) and (max-width: 991px) {
@@ -52,7 +50,6 @@ padding-left: 33%;
 .honest {
 padding-left: 10%;
 }
-
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {
 font-size: 16px;
 }
@@ -155,7 +152,6 @@ border-radius: 14px;
 padding: 20px;
 }
 .data-table h6 a {
-
 font-size: 14px;
 }
 .data-table h5 {
@@ -167,7 +163,6 @@ font-size: 14px;
 line-height: 23px;
 }
 .select-area {
-
 font-size: 15px;
 }
 select {
@@ -227,19 +222,348 @@ line-height: 23px;
 padding-left: 7px;
 }
 .pnl-type a {
-  font-size: 11px;
-  line-height: 24px;
+font-size: 11px;
+line-height: 24px;
 }
 .part-one {
-  height: 107px;
+height: 107px;
 }
 .comments h5 {
-  font: bold 24px arial;
+font: bold 24px arial;
 }
 .greeg-bio > h6 {
-  font-size: 16px;
+font-size: 16px;
 }
+}
+/*mobile view*/
+@media (min-width:320px) and (max-width: 767px) {
+/*home tab*/
+.logo_area {
+text-align: center;
+width: 100%;
+}
+.honest {
+padding-left: 25px;
+text-align: center;
+width: 100%;
+}
+.gregg {
+text-align: center;
+}
+.tab-content-area {
+position: relative;
+top: 0;
+}
+.nav {
+padding-left: 0;
+}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {
+
+font-size: 13px;
+}
+.nav-tabs > li > a {
+font-size: 13px;
+}
+.nav-tabs > li {
+text-align: center;
+width: 50%;
+}
+.message p {
+font-size: 13px;
+padding-top: 4px;
+}
+.shopper-text h1 {
+font-size: 22px;
+text-align: center;
+}
+.shopper-text > p {
+font-size: 14px;
+line-height: 23px;
+text-align: center;
+}
+.car-type {
+text-align: center;
+width: 100%;
+}
+.list-ordered > ol {
+padding: 0;
+}
+.col-sm-9.erase_pad {
+text-align: center;
+width: 100%;
+}
+.list-ordered li {
+font-size: 12px;
+line-height: 24px;
+}
+.tips h2 {
+font-size: 19px;
+padding-left: 0;
+text-align: center;
+margin-bottom: 0;
+}
+.tips img {
+width: 14%;
+}
+.list-two > ul {
+padding-left: 0;
+text-align: center;
+}
+.list-two a {
+font-size: 12px;
+line-height: 27px;
+}
+.car-slider > h1 {
+font-size: 22px;
+margin-top: 8px;
+}
+.car-slider > p {
+font-size: 12px;
+}
+.slider_container {
+margin: 0;
+padding: 0;
+width: 100%;
+}
+.flexslider {
+padding: 0 0 13px;
+}
+.flex-direction-nav li a.next {
+display: none;
+}
+.flex-direction-nav li a.prev {
+display: none;
+}
+.flex-caption {
+display: none;
+}
+.content_area > h1 {
+font-size: 34px;
+margin-bottom: 15px;
+}
+.amazon_img > img {
+width: 39%;
+}
+.amazon_img > p {
+font-size: 10px;
+}
+.table-list-area {
+  display: table;
+  width: 100%;
+}
+.col-sm-9 {
+padding-right: 0;
+}
+.kindle_version > p {
+font-size: 14px;
+line-height: 22px;
+text-align: center;
+}
+.btn-default {
+font-size: 12px;
+padding: 3px 4px;
+}
+#book-input.form-control {
+width: 54%;
+}
+.form-control {
+font-size: 12px;
+height: 25px;
+}
+.input-group {
+width: 100%;
+padding-left: 8%;
+}
+.table-list-area > h1 {
+  font-size: 23px;
+  padding-top: 0;
+}
+.header-bg h6 {
+  font-size: 17px;
+  text-align: center;
+}
+.list-details h2 {
+  font-size: 17px;
+  margin-top: 2px;
+  text-align: center;
+}
+.list-details > ul {
+  padding-left: 0;
+  text-align: center;
 }
 
-/*mobile view*/
-@media (min-width:320px) and (max-width: 767px) {}
+.list-details a {
+  font-size: 12px;
+  line-height: 25px;
+
+}
+.data-text > h1 {
+  font-size: 22px;
+  text-align: center;
+}
+.data-text > p {
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.data-table > h3 {
+  font-size: 18px;
+  text-align: center;
+}
+.data-table {
+  border-radius: 12px;
+  padding: 2px;
+}
+.data-table > p {
+  font-size: 12px;
+  text-align: center;
+}
+.car a {
+  font-size: 12px;
+  line-height: 22px;
+}
+.car {
+  font-size: 12px;
+}
+.data-table {
+  margin-bottom: 5px;
+}
+.data-table h6 a {
+  font-size: 13px;
+  padding-left: 0;
+
+}
+.data-table h5 {
+  font-size: 13px;
+  padding: 9px 0;
+  text-align: center;
+}
+.select-area {
+  font-size: 13px;
+
+}
+select {
+  font-size: 10px;
+  width: 23%;
+}
+.deals-table > h1 {
+  font-size: 23px;
+  padding-top: 0;
+}
+.car {
+  font-size: 12px;
+  padding-left: 0;
+  text-align: center;
+}
+.data-table > h6 {
+  text-align: center;
+}
+.col-sm-12.er {
+  padding: 0;
+}
+.table {
+  font-size: 8px;
+}
+.footer-policy > h6 {
+  font-size: 13px;
+  margin: 0;
+}
+.footer-policy a {
+  font-size: 10px;
+}
+.footer-policy > p {
+  font-size: 13px;
+}
+.button.hvr-back-pulse {
+  font-size: 10px;
+
+}
+.footer-txt > p {
+  font-size: 12px;
+  padding-top: 11px;
+}
+.input-group.no-2 {
+  padding-left: 0;
+}
+/*buyers guide css*/
+.tab-head > h5 {
+  font-size: 13px;
+
+}
+.tab-body h4 {
+  text-align: center;
+}
+.tab-body a {
+  font-size: 17px;
+  padding-left: 0;
+}
+.term a {
+  font-size: 12px;
+  line-height: 18px;
+
+}
+.term {
+  padding-left: 0;
+  text-align: center;
+}
+.guide > h1 {
+  font-size: 28px;
+  padding-left: 0;
+  text-align: center;
+}
+.guide > p {
+  font-size: 13px;
+  padding-bottom: 0;
+  padding-left: 5px;
+  text-align: center;
+}
+.guide > h2.all-same {
+  font-size: 22px;
+  margin: 9px 0 0;
+  padding-left: 0;
+  text-align: center;
+}
+.main {
+ 
+  font-size: 13px;
+  line-height: 23px;
+  padding-left: 0;
+  text-align: center;
+}
+.panel-title {
+  font-size: 12px;
+  text-align: center;
+ 
+}
+.pnl-type a {
+  font-size: 11px;
+  line-height: 21px;
+}
+.pnl-type {
+  padding-left: 0;
+  text-align: center;
+}
+.left-table-1 {
+  border-left: medium none;
+}
+
+
+
+
+
+
+
+
+}
+/*extra media quaries*/
+@media (min-width:400px) and (max-width: 767px) {
+.honest {
+padding-left: 81px;
+}
+}
+@media (min-width:400px) and (max-width: 767px) {
+.input-group {
+padding-left: 16%;
+}
+}

@@ -1,1042 +1,1040 @@
-                                    /*font*/
-                                    
-                                    body {
-                                        /* font-family: 'Lilita One', 'Dosis', 'cursive', 'Open Sans', 'sans-serif';*/
-                                        font: arial, helvetica, Verdana;
-                                    }
-                                    
-                                    body {
-                                        overflow-y: scroll;
-                                        overflow-x: hidden;
-                                    }
-                                    
-                                    a,
-                                    a:focus,
-                                    a:hover,
-                                    a:active {
-                                        outline: none;
+/*font*/
 
-                                    }
-                                    /*header area*/
-                                    
-                                    section.header-area {
-                                        background: rgba(0, 0, 0, 0) url("../img/header-bg.gif") repeat-x scroll 0 0;
-                                    }
-                                    
-                                    .logo_area {
-                                        position: relative;
-                                        z-index: 2;
+body {
+/* font-family: 'Lilita One', 'Dosis', 'cursive', 'Open Sans', 'sans-serif';*/
+font: arial, helvetica, Verdana;
+}
 
-                                    }
-                                    
-                                    .gregg {
-                                        text-align: right;    
-                                    }
-                                    /*tab content area*/
-                                    .gregg img {
-                                          position: relative;
-                                          z-index: 222;
-                                        }
-                                    .tab-content-area {
-                                        position: absolute;
-                                        top: 51px;
-                                        width: 100%;
-                                        z-index: 1;
-                                    }
-                                    
-                                    .nav-tabs {
-                                        border-bottom: medium none;
-                                    }
-                                    
-                                    .nav {
-                                        padding-left: 40%;
-                                    }
-                                    
-                                    .honest {
-                                        padding-left: 30%;
-                                    }
-                                    
-                                    .nav-tabs > li.active > a,
-                                    .nav-tabs > li.active > a:focus,
-                                    .nav-tabs > li.active > a:hover {
-                                        -moz-border-bottom-colors: none;
-                                        -moz-border-left-colors: none;
-                                        -moz-border-right-colors: none;
-                                        -moz-border-top-colors: none;
-                                        background-color: #4faf4f;
-                                        border-color: #547027 #547027 #79a23c;
-                                        border-image: none;
-                                        border-style: solid;
-                                        border-width: 1px;
-                                        color: #fff;
-                                        cursor: default;
-                                        font-size: 17px;
-                                        font-weight: 700;
-                                        text-shadow: 2px 1px 1px #333;
-                                    }
-                                    
-                                    .nav-tabs > li > a {
-                                        border-radius: 0px;
-                                    }
-                                    
-                                    .nav-tabs > li {
-                                        background: rgba(0, 0, 0, 0) -moz-linear-gradient(center top, #dddddd 0%, #eeeeee 37%) repeat scroll 0 0;
-                                    }
-                                    
-                                    .nav-tabs > li > a {
-                                        -moz-border-bottom-colors: none;
-                                        -moz-border-left-colors: none;
-                                        -moz-border-right-colors: none;
-                                        -moz-border-top-colors: none;
-                                        border-color: #bbb #bbb #547027;
-                                        border-image: none;
-                                        border-radius: 0;
-                                        border-style: solid;
-                                        border-width: 1px 1px 0;
-                                        color: #333;
-                                        font-size: 17px;
-                                        font-weight: 700;
-                                        line-height: 1.42857;
-                                        margin-right: 0;
-                                    }
-                                    
-                                    .tab-content-area {}
-                                    
-                                    .container.green-width {
-                                        background: #b4ddb4;
-                                        /* Old browsers */
-                                        background: -moz-linear-gradient(top, #b4ddb4 0%, #83c783 0%, #52b152 3%, #008a00 100%, #005700 100%, #002400 100%, #008a00 100%);
-                                        /* FF3.6-15 */
-                                        background: -webkit-linear-gradient(top, #b4ddb4 0%, #83c783 0%, #52b152 3%, #008a00 100%, #005700 100%, #002400 100%, #008a00 100%);
-                                        /* Chrome10-25,Safari5.1-6 */
-                                        background: linear-gradient(to bottom, #b4ddb4 0%, #83c783 0%, #52b152 3%, #008a00 100%, #005700 100%, #002400 100%, #008a00 100%);
-                                        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-                                        filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#b4ddb4', endColorstr='#008a00', GradientType=0);
-                                        /* IE6-9 */
-                                        border-bottom: 5px solid #333;
-                                        height: 48px;
-                                        padding: 7px 7px 7px 15px;
-                                        width: 100%;
-                                        position: relative;
-                                        z-index: 1;
-                                    }
-                                    /*home tab area*/
-                                    
-                                    .content-wrapper {
-                                        box-shadow: 1px 0 10px 0 #bfc1cc, -1px 0 10px 0 #bfc1cc;
-                                        overflow: hidden;
-                                        margin: 0;
-                                        padding: 0;
-                                    }
-                                    
-                                    .message p {
-                                        color: #ffcc00;
-                                        font-size: 16px;
-                                        font-weight: 700;
-                                        padding-top: 8px;
-                                        text-align: center;
-                                        text-decoration: underline;
-                                    }
-                                    
-                                    .message {
-                                        background: #333 none repeat scroll 0 0;
-                                        border-bottom: 1px solid #ccc;
-                                    }
-                                    
-                                    .col-sm-12.brd-btm.bg-overlay {
-                                        background: rgba(0, 0, 0, 0) radial-gradient(ellipse at center center, rgba(255, 255, 255, 1) 51%, rgba(227, 239, 242, 1) 100%) repeat scroll 0 0;
-                                    }
-                                    
-                                    .shopper-text h1 {
-                                        color: #000;
-                                        font-family: Dosis;
-                                        font-size: 48px;
-                                        font-weight: 700;
-                                        text-align: left;
-                                    }
-                                    
-                                    .shopper-text > p {
-                                        color: #000;
-                                        font-family: open sans;
-                                        font-size: 16px;
-                                        line-height: 31px;
-                                    }
-                                    
-                                    .list-ordered li {
-                                        color: #444;
-                                        font-family: helvetica;
-                                        font-size: 16px;
-                                        line-height: 29px;
-                                    }
-                                    
-                                    .list-ordered a {
-                                        color: #039;
-                                        text-decoration: underline;
-                                    }
-                                    
-                                    .weight {
-                                        font-weight: 700;
-                                    }
-                                    
-                                    .list-two a {
-                                        color: #039;
-                                        font-family: open sans;
-                                        font-size: 14px;
-                                        line-height: 29px;
-                                        text-decoration: underline;
-                                    }
-                                    
-                                    .tips h2 {
-                                        color: #000;
-                                        font-family: dosis;
-                                        font-size: 35px;
-                                        font-weight: 700;
-                                        margin-top: 0;
-                                        padding-left: 8%;
-                                    }
-                                    
-                                    .col-sm-5.brd-left {
-                                        border-left: 3px solid #eee;
-                                        margin-top: 16px;
-                                    }
-                                    
-                                    .col-sm-9.erase_pad {
-                                        padding-right: 0;
-                                    }
-                                    
-                                    .col-sm-12.brd-btm {
-                                        border-bottom: 5px solid #ccc;
-                                    }
-                                    /*slider css*/
-                                    
-                                    .car-slider {
-                                        background: #fff none repeat scroll 0 0;
-                                    }
-                                    
-                                    .car-slider > h1 {
-                                        color: #000;
-                                        font-family: dosis;
-                                        font-size: 40px;
-                                        font-weight: 700;
-                                        text-align: center;
-                                    }
-                                    
-                                    .car-slider > p {
-                                        text-align: center;
-                                    }
-                                    
-                                    .car-slider a {
-                                        color: #039;
-                                        text-decoration: underline;
-                                    }
-                                    
-                                    .slider_container {
-                                        width: 920px;
-                                        margin: auto;
-                                        clear: both;
-                                        background: url(../img/shadow_top.png) no-repeat top center;
-                                        padding: 30px 0 0 0;
-                                    }
-                                    
-                                    .flex-caption {
-                                        position: absolute;
-                                        right: 11px;
-                                        bottom: 20px;
-                                    }
-                                    
-                                    .caption_title_line {
-                                        width: 450px;
-                                        height: 75px;
-                                        padding: 5px 15px 80px;
-                                        background: url(../img/slider_caption_bg.png) repeat;
-                                        color: #eee;
-                                    }
-                                    
-                                    .flex-caption h2 {
-                                        color: #fff;
-                                        font-size: 20px;
-                                        padding: 5px 0 5px 0;
-                                        margin: 0px;
-                                        font-family: 'Ovo', serif;
-                                    }
-                                    
-                                    .flex-container a:active,
-                                    .flexslider a:active {
-                                        outline: none;
-                                    }
-                                    
-                                    .slides,
-                                    .flex-control-nav,
-                                    .flex-direction-nav {
-                                        margin: 0;
-                                        padding: 0;
-                                        list-style: none;
-                                    }
-                                    
-                                    .flexslider {
-                                        width: 100%;
-                                        margin: 0;
-                                        padding: 0 0 30px 0;
-                                        background: url(../img/shadow_bottom.png) no-repeat center bottom;
-                                    }
-                                    
-                                    .flexslider .slides > li {
-                                        display: none;
-                                    }
-                                    /* Hide the slides before the JS is loaded. Avoids image jumping */
-                                    
-                                    .flexslider .slides img {
-                                        max-width: 100%;
-                                        display: block;
-                                        border: 10px #ededed solid;
-                                    }
-                                    
-                                    .flex-pauseplay span {
-                                        text-transform: capitalize;
-                                    }
-                                    
-                                    .slides:after {
-                                        content: ".";
-                                        display: block;
-                                        clear: both;
-                                        visibility: hidden;
-                                        line-height: 0;
-                                        height: 0;
-                                    }
-                                    
-                                    html[xmlns] .slides {
-                                        display: block;
-                                    }
-                                    
-                                    * html .slides {
-                                        height: 1%;
-                                    }
-                                    
-                                    .no-js .slides > li:first-child {
-                                        display: block;
-                                    }
-                                    
-                                    .flexslider {
-                                        position: relative;
-                                        zoom: 1;
-                                    }
-                                    
-                                    .flexslider .slides {
-                                        zoom: 1;
-                                    }
-                                    
-                                    .flexslider .slides > li {
-                                        position: relative;
-                                    }
-                                    
-                                    .flex-container {
-                                        zoom: 1;
-                                        position: relative;
-                                    }
-                                    /* Direction Nav */
-                                    
-                                    .flex-direction-nav li a {
-                                        width: 45px;
-                                        height: 42px;
-                                        margin: 0;
-                                        display: block;
-                                        position: absolute;
-                                        right: 11px;
-                                        cursor: pointer;
-                                        text-indent: -9999px;
-                                    }
-                                    
-                                    .flex-direction-nav li a.next {
-                                        background: url(../img/next.png) no-repeat center;
-                                        bottom: 184px;
-                                    }
-                                    
-                                    .flex-direction-nav li a.prev {
-                                        background: url(../img/prev.png) no-repeat center;
-                                        bottom: 141px;
-                                    }
-                                    
-                                    .flex-direction-nav li a.next:hover {
-                                        background: url(../img/next_a.png) no-repeat center;
-                                    }
-                                    
-                                    .flex-direction-nav li a.prev:hover {
-                                        background: url(../img/prev_a.png) no-repeat center;
-                                    }
-                                    
-                                    .flex-direction-nav li a.disabled {
-                                        opacity: .3;
-                                        filter: alpha(opacity=30);
-                                        cursor: default;
-                                    }
-                                    /* Control Nav */
-                                    
-                                    .flex-control-nav {
-                                        width: 100%;
-                                        position: absolute;
-                                        bottom: -30px;
-                                        text-align: center;
-                                    }
-                                    
-                                    .flex-control-nav li {
-                                        margin: 0 0 0 5px;
-                                        display: inline-block;
-                                        zoom: 1;
-                                        *display: inline;
-                                    }
-                                    
-                                    .flex-control-nav li:first-child {
-                                        margin: 0;
-                                    }
-                                    
-                                    .flex-control-nav li a {
-                                        width: 13px;
-                                        height: 13px;
-                                        display: block;
-                                        cursor: pointer;
-                                        text-indent: -9999px;
-                                    }
-                                    
-                                    .flex-control-nav li a:hover {
-                                        background-position: 0 -13px;
-                                    }
-                                    
-                                    .flex-control-nav li a.active {
-                                        background-position: 0 -26px;
-                                        cursor: default;
-                                    }
-                                    
-                                    @media screen and (max-width: 1000px) {
-                                        .slider_container {
-                                            width: 90%;
-                                            margin: 0 0 0 2%;
-                                            clear: both;
-                                            background: none;
-                                            padding: 30px 0 0 0;
-                                        }
-                                        .flexslider {
-                                            width: 100%;
-                                            margin: 0;
-                                            padding: 0 0 30px 0;
-                                            background: none;
-                                        }
-                                        .flex-direction-nav li a {
-                                            width: 45px;
-                                            height: 42px;
-                                            margin: 0;
-                                            display: block;
-                                            position: absolute;
-                                            right: -10px;
-                                            cursor: pointer;
-                                            text-indent: -9999px;
-                                        }
-                                        .flex-direction-nav li a.next {
-                                            background: url(../img/next.png) no-repeat center;
-                                            bottom: 85px;
-                                        }
-                                        .flex-direction-nav li a.prev {
-                                            background: url(../img/prev.png) no-repeat center;
-                                            bottom: 40px;
-                                        }
-                                      
-                                    }
-                                    /*content area*/
-                                    
-                                    .content_area {
-                                        height: 286px;
-                                    }
-                                    
-                                    .content_area > h1 {
-                                        color: #0d2168;
-                                        font-family: dosis;
-                                        font-size: 60px;
-                                        font-weight: 700;
-                                        margin-bottom: 26px;
-                                        text-align: center;
-                                    }
-                                    
-                                    .amazon_img {
-                                        text-align: center;
-                                        width: 100%;
-                                    }
-                                    
-                                    .kindle_version > p {
-                                        color: #000;
-                                        font-size: 16px;
-                                        line-height: 29px;
-                                    }
-                                    
-                                    .kindle_version a {
-                                        color: #039;
-                                        text-decoration: underline;
-                                    }
-                                    
-                                    .amazon_img > img {
-                                        height: 151px;
-                                        width: 56%;
-                                    }
-                                    
-                                    .amazon_img a {
-                                        color: #039;
-                                        text-decoration: underline;
-                                    }
-                                    
-                                    .col-sm-9 {
-                                        padding-left: 0;
-                                        padding-right: 82px;
-                                    }
-                                    
-                                    #book-input.form-control {
-                                        border: 1px solid #171717;
-                                        border-radius: 0;
-                                        box-shadow: none;
-                                        width: 68%;
-                                    }
-                                    
-                                    .btn-default {
-                                        background-color: #0d2168;
-                                        border-color: #000;
-                                        color: #fff;
-                                        font-size: 18px;
-                                        padding: 3px 12px;
-                                    }
-                                    
-                                    .input-group-btn {
-                                        padding-left: 5px;
-                                    }
-                                    
-                                    .input-group {
-                                        display: block;
-                                    }
-                                    /*table list area*/
-                                    
-                                    .table-list-area > h1 {
-                                        color: #000;
-                                        font-family: tahoma;
-                                        font-size: 48px;
-                                        font-weight: 700;
-                                        padding: 15px 30px 5px;
-                                        text-align: center;
-                                    }
-                                    
-                                    .header-bg h6 {
-                                        background: #eee none repeat scroll 0 0;
-                                        border-bottom: 3px solid #ccc;
-                                        color: maroon;
-                                        font-family: open sans;
-                                        font-size: 20px;
-                                        font-weight: 700;
-                                        padding: 5px 5px 5px 15px;
-                                    }
-                                    
-                                    .list-details h2 {
-                                        color: #2460b2;
-                                        font-family: open sans;
-                                        font-size: 25px;
-                                        font-weight: 700;
-                                    }
-                                    
-                                    .list-details > a {
-                                        text-decoration: underline;
-                                    }
-                                    
-                                    .list-details > ul {
-                                        padding-left: 24px;
-                                    }
-                                    
-                                    .list-details a {
-                                        color: navy;
-                                        font-family: open sans;
-                                        font-size: 15px;
-                                        font-weight: 400;
-                                        line-height: 31px;
-                                        text-decoration: underline;
-                                    }
-                                    /*data text area*/
-                                    
-                                    .data-text > h1 {
-                                        color: #000;
-                                        font-family: dosis;
-                                        font-size: 45px;
-                                        font-weight: 700;
-                                    }
-                                    
-                                    .data-text > p {
-                                        color: #444;
-                                        font-size: 16px;
-                                        line-height: 31px;
-                                    }
-                                    
-                                    .data-table {
-                                        background: #fcf8e3 none repeat scroll 0 0;
-                                        border: 4px solid #c09853;
-                                        border-radius: 16px;
-                                        margin-top: 0;
-                                        padding: 27px;
-                                    }
-                                    
-                                    .data-table > h3 {
-                                        color: #000;
-                                        font-family: Trebuchet MS;
-                                        font-size: 25px;
-                                        margin-top: 0;
-                                    }
-                                    
-                                    .data-table > p {
-                                        color: #999;
-                                        font-size: 16px;
-                                        font-style: italic;
-                                        font-weight: 700;
-                                    }
-                                    
-                                    .car a {
-                                        color: #039;
-                                        font-size: 16px;
-                                        line-height: 28px;
-                                        text-decoration: underline;
-                                    }
-                                    
-                                    .car {
-                                        font-size: 16px;
-                                    }
-                                    
-                                    .data-table h6 a {
-                                        color: #039;
-                                        font-size: 16px;
-                                        font-weight: 700;
-                                        padding-left: 43px;
-                                        text-decoration: underline;
-                                    }
-                                    
-                                    .data-table h5 {
-                                        color: #003366;
-                                        font-size: 16px;
-                                        font-style: italic;
-                                        font-weight: 700;
-                                        padding: 29px 0;
-                                    }
-                                    .col-sm-12.brd-btm:last-child {
-                                        border-bottom: 0 none;
-                                    }
-                                    .select-area {
-                                        color: #444444;
-                                        font-size: 17px;
-                                        line-height: 30px;
-                                    }
-                                    
-                                    select {
-                                        font-size: 18px;
-                                        text-align: center;
-                                        width: 19%;
-                                    }
-                                    /*deals table*/
-                                    
-                                    .deals-table > h1 {
-                                        color: #468847;
-                                        font-family: tahoma;
-                                        font-size: 30px;
-                                        font-weight: 700;
-                                        padding-top: 31px;
-                                    }
-                                    
-                                    thead {
-                                        background: #468847 none repeat scroll 0 0;
-                                        color: #fff;
-                                    }
-                                    
-                                    .table > thead > tr > th {
-                                        border-bottom: medium none;
-                                        border-right: 1px solid #fff;
-                                    }
-                                    
-                                    .table > tbody > tr > td,
-                                    .table > tbody > tr > th,
-                                    .table > tfoot > tr > td,
-                                    .table > tfoot > tr > th,
-                                    .table > thead > tr > td,
-                                    .table > thead > tr > th {
-                                        border-top: medium none;
-                                    }
-                                    
-                                    .green {
-                                        color: #468847;
-                                        font-weight: 700;
-                                        text-align: center;
-                                    }
-                                    
-                                    .table.table-striped a {
-                                        color: #000033;
-                                        font-weight: 700;
-                                        text-decoration: underline;
-                                    }
-                                    
-                                    td:last-child {
-                                        text-align: center;
-                                    }
-                                    
-                                    th:last-child {
-                                        text-align: center;
-                                    }
-                                    
-                                    .table-striped > tbody > tr:nth-of-type(2n+1) {
-                                        background-color: #eeeeee;
-                                    }
-                                    /*footer area*/
-                                    
-                                    .section.footer-bg {
-                                        background: #242d36 none repeat scroll 0 0;
-                                        position: relative;
-                                        width: 100%;
-                                        z-index: 1;
-                                    }
-                                    
-                                    .footer-policy > h6 {
-                                        color: #eee;
-                                        font-size: 16px;
-                                        font-weight: 700;
-                                    }
-                                    
-                                    .footer-policy > p {
-                                        color: #999;
-                                        font-size: 16px;
-                                    }
-                                    
-                                    .button.hvr-back-pulse {
-                                        color: #000;
-                                        font-size: 13px;
-                                        font-weight: 700;
-                                        text-decoration: none;
-                                    }
-                                    
-                                    .button {
-                                        display: inline-block;
-                                        padding: 9px 27px;
-                                        background-color: #79BD9A;
-                                        text-decoration: none;
-                                        color: white;
-                                    }
-                                    
-                                    .footer-txt > p {
-                                        color: #999;
-                                        font-size: 13px;
-                                        padding-top: 15px;
-                                    }
-                                    
-                                    .footer-txt a {
-                                        color: #fff;
-                                        text-decoration: underline;
-                                    }
-                                    
-                                    .footer-policy a {
-                                        color: #fff;
-                                        font-size: 13px;
-                                        text-decoration: underline;
-                                    }
-                                    /* buyers guide tab area*/
-                                    
-                                    #search-input.form-control {
-                                        border: 1px solid #171717;
-                                        border-radius: 0;
-                                        box-shadow: none;
-                                        width: 36%;
-                                    }
-                                    
-                                    #search-input.form-control {
-                                        height: 28px;
-                                    }
-                                    
-                                    button#srch-btn {
-                                        font-size: 14px;
-                                    }
-                                    
-                                    .search-box {
-                                        left: 29%;
-                                        position: absolute;
-                                        top: -40px;
-                                        width: 100%;
-                                    }
-                                    
-                                    #menu1.tab-pane.fade.active.in {
-                                        background: #faf9f4 none repeat scroll 0 0;
-                                    }
-                                    
-                                    .left-table-1 {
-                                        border-bottom: 3px solid #ccc;
-                                        border-left: 2px solid #aaa;
-                                    }
-                                    
-                                    .tab-head > h5 {
-                                        background: #333333 none repeat scroll 0 0;
-                                        color: #fff;
-                                        font-size: 14px;
-                                        font-weight: 700;
-                                        margin-top: 0;
-                                        padding: 5px;
-                                        text-align: center;
-                                    }
-                                    
-                                    .tab-body a {
-                                        color: #000;
-                                        font-size: 20px;
-                                        font-weight: 700;
-                                        padding-left: 28px;
-                                        text-decoration: underline;
-                                    }
-                                    
-                                    .term a:hover {
-                                        text-decoration: underline
-                                    }
-                                    
-                                    .term a {
-                                        color: #2f6192;
-                                        font-size: 14px;
-                                        font-weight: 400;
-                                        line-height: 29px;
-                                        padding-left: 0;
-                                        text-decoration: none;
-                                    }
-                                    
-                                    .guide > h1 {
-                                        background-image: url("../img/topBG2.png");
-                                        background-repeat: repeat;
-                                        color: #000;
-                                        font-family: tahoma;
-                                        font-size: 45px;
-                                        font-weight: 700;
-                                        margin-top: 0;
-                                        padding-left: 18px;
-                                        text-shadow: 1px 1px 1px #cccccc;
-                                        padding-top: 14px;
-                                    }
-                                    
-                                    .guide > p {
-                                        color: #000;
-                                        font-size: 16px;
-                                        font-style: italic;
-                                        font-weight: 700;
-                                        padding-bottom: 15px;
-                                        padding-left: 18px;
-                                    }
-                                    
-                                    .col-sm-9.extra-remem {
-                                        border-left: 1px solid #ccc;
-                                        box-shadow: -2px 3px 15px -2px #bbbdc9;
-                                        padding-right: 0;
-                                    }
-                                    
-                                    .col-sm-12.rem-pad {
-                                        padding-left: 0;
-                                    }
-                                    
-                                    .col-sm-3.common-left-tab {
-                                        padding-left: 0;
-                                        padding-right: 0;
-                                    }
-                                    
-                                    .col-sm-12.erase-right-pad {
-                                        padding-left: 0;
-                                        padding-right: 0;
-                                    }
-                                    
-                                    .tab-body {
-                                        padding-left: 16px;
-                                    }
-                                    
-                                    .col-sm-12.shadow-all {
-                                        box-shadow: 1px 0 10px 0 #bfc1cc, -1px 0 10px 0 #bfc1cc;
-                                        padding-left: 0;
-                                        padding-right: 0;
-                                    }
-                                    
-                                    .guide > h2.all-same {
-                                        color: #900;
-                                        font-family: helvetica;
-                                        font-size: 31px;
-                                        font-weight: 700;
-                                        text-shadow: 1px 1px 1px #cccccc;
-                                        padding-left: 16px;
-                                    }
-                                    
-                                    .main {
-                                        color: #444;
-                                        font-size: 16px;
-                                        line-height: 28px;
-                                        padding-left: 9px;
-                                    }
-                                    /*panel css*/
-                                    
-                                    .panel-title {
-                                        color: #fff;
-                                        font-size: 13px;
-                                        text-shadow: 1px 1px 1px #000;
-                                    }
-                                    
-                                    .panel-default > .panel-heading {
-                                        background-color: green;
-                                    }
-                                    
-                                    .panel-default {
-                                        background: #feffff;
-                                        /* Old browsers */
-                                        background: -moz-linear-gradient(top, #feffff 0%, #ddf1f9 1%);
-                                        /* FF3.6-15 */
-                                        background: -webkit-linear-gradient(top, #feffff 0%, #ddf1f9 1%);
-                                        /* Chrome10-25,Safari5.1-6 */
-                                        background: linear-gradient(to bottom, #feffff 0%, #ddf1f9 1%);
-                                        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-                                        filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#feffff', endColorstr='#ddf1f9', GradientType=0);
-                                        /* IE6-9 */
-                                        box-shadow: 4px 4px 4px #bbb;
-                                    }
-                                    
-                                    .itl {
-                                        color: #333;
-                                        font-style: italic;
-                                        font-weight: 700;
-                                    }
-                                    
-                                    .pnl-type a {
-                                        color: #039;
-                                        font-size: 13px;
-                                        font-weight: 700;
-                                        line-height: 28px;
-                                        text-decoration: underline;
-                                    }
-                                    
-                                    .col-sm-12 > img {
-                                        padding-bottom: 10px;
-                                        padding-left: 8px;
-                                        padding-top: 10px;
-                                    }
-                                    
-                                    .recomend-bg {
-                                        background: #fef7c5 none repeat scroll 0 0;
-                                        border: 1px solid #fdeaa0;
-                                        border-radius: 0 8px 8px;
-                                        box-shadow: 4px 4px 4px #bbb;
-                                        margin-bottom: 52px;
-                                        margin-left: 9px;
-                                    }
-                                    
-                                    .recomend-bg > img {
-                                        padding: 14px;
-                                        float: left;
-                                    }
-                                    
-                                    .sub-main2 {
-                                        font-size: 12px;
-                                        font-style: italic;
-                                        padding-bottom: 1px;
-                                    }
-                                    
-                                    .sub-main > a {
-                                        color: #039;
-                                        font-size: 17px;
-                                        font-weight: 700;
-                                        text-decoration: underline;
-                                    }
-                                    
-                                    .sub-main {
-                                        margin-bottom: 0;
-                                        padding-top: 9px;
-                                    }
-                                    
-                                    hr {
-                                        border: 0;
-                                        clear: both;
-                                        display: block;
-                                        width: 100%;
-                                        background-color: #7AA03D;
-                                        height: 4px;
-                                        margin-bottom: 0;
-                                        
-                                    }
-                                    .top {
-                                          background: #7aa03d none repeat scroll 0 0;
-                                          border-radius: 0 0 0 5px;
-                                          color: #fff;
-                                          display: inline;
-                                          float: right;
-                                          font: 11px arial;
-                                          padding: 4px;
-                                        }
-                                    a.scroll,a.scroll:hover,a.scroll:focus {
-                                              color: #fff;
-                                              text-decoration: underline;
-                                          }
-                    
-                                    
-                                    
-                                    .main > img {
-                                        padding-bottom: 19px;
-                                        width: 100%;
-                                    }
-                                    
-                                    .part-one {
-                                        border-right: 4px solid #fdeaa0;
-                                        height: 78px;
-                                        padding: 0 1px;
-                                    }
-                                    
-                                    .part-two {
-                                        padding: 0 1px;
-                                    }
-                                    
-                                    .msp-list.main {
-                                        padding-left: 26px;
-                                    }
-                                    
-                                    .greeg-bio {
-                                          background: #eee none repeat scroll 0 0;
-                                          border: 1px solid #ccc;
-                                          border-radius: 10px;
-                                          color: #555;
-                                          font-size: 12px;
-                                          margin-bottom: 14px;
-                                          margin-left: 11px;
-                                          padding: 5px;
-                                        }
-                                    
-                                    .greeg-bio > img {
-                                        float: left;
-                                        padding-right: 9px;
-                                    }
-                                    
-                                    .greeg-bio > h6 {
-                                        color: maroon;
-                                        font-size: 17px;
-                                        font-weight: 700;
-                                        margin-bottom: 0;
-                                        margin-top: 2px;
-                                    }
-                                    
-                                    .greeg-bio > p {
-                                        margin-bottom: 0;
-                                    }
-                                    
-                                    .greeg-bio a {
-                                        color: #039;
-                                        text-decoration: underline;
-                                    }
-                                    
-                                    .comments {
-                                        padding: 25px;
-                                        background: #F5FAF8;
-                                        -webkit-border-top-left-radius: 10px;
-                                        -moz-border-radius-topleft: 10px;
-                                        border-top-left-radius: 10px;
-                                        -webkit-border-top-right-radius: 10px;
-                                        -moz-border-radius-topright: 10px;
-                                        border-top-right-radius: 10px;
-                                        border: 1px solid #bce8f1;
-                                        border-bottom: 0px;
-                                        margin-left: 11px;
-                                    }
-                                    
-                                    .comments h5 {
-                                        padding: 0px;
-                                        margin: 0px;
-                                        margin-top: -10px;
-                                        font: bold 27px arial;
-                                        color: #063;
-                                    }
+body {
+overflow-y: scroll;
+overflow-x: hidden;
+}
+
+a,
+a:focus,
+a:hover,
+a:active {
+outline: none;
+}
+/*header area*/
+
+section.header-area {
+background: rgba(0, 0, 0, 0) url("../img/header-bg.gif") repeat-x scroll 0 0;
+}
+
+.logo_area {
+position: relative;
+z-index: 2;
+}
+
+.gregg {
+text-align: right;
+}
+/*tab content area*/
+.gregg img {
+position: relative;
+z-index: 222;
+}
+.tab-content-area {
+position: absolute;
+top: 51px;
+width: 100%;
+z-index: 1;
+}
+
+.nav-tabs {
+border-bottom: medium none;
+}
+
+.nav {
+padding-left: 40%;
+}
+
+.honest {
+padding-left: 30%;
+}
+
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:focus,
+.nav-tabs > li.active > a:hover {
+-moz-border-bottom-colors: none;
+-moz-border-left-colors: none;
+-moz-border-right-colors: none;
+-moz-border-top-colors: none;
+background-color: #4faf4f;
+border-color: #547027 #547027 #79a23c;
+border-image: none;
+border-style: solid;
+border-width: 1px;
+color: #fff;
+cursor: default;
+font-size: 17px;
+font-weight: 700;
+text-shadow: 2px 1px 1px #333;
+}
+
+.nav-tabs > li > a {
+border-radius: 0px;
+}
+
+.nav-tabs > li {
+background: rgba(0, 0, 0, 0) -moz-linear-gradient(center top, #dddddd 0%, #eeeeee 37%) repeat scroll 0 0;
+}
+
+.nav-tabs > li > a {
+-moz-border-bottom-colors: none;
+-moz-border-left-colors: none;
+-moz-border-right-colors: none;
+-moz-border-top-colors: none;
+border-color: #bbb #bbb #547027;
+border-image: none;
+border-radius: 0;
+border-style: solid;
+border-width: 1px 1px 0;
+color: #333;
+font-size: 17px;
+font-weight: 700;
+line-height: 1.42857;
+margin-right: 0;
+}
+
+.tab-content-area {}
+
+.container.green-width {
+background: #b4ddb4;
+/* Old browsers */
+background: -moz-linear-gradient(top, #b4ddb4 0%, #83c783 0%, #52b152 3%, #008a00 100%, #005700 100%, #002400 100%, #008a00 100%);
+/* FF3.6-15 */
+background: -webkit-linear-gradient(top, #b4ddb4 0%, #83c783 0%, #52b152 3%, #008a00 100%, #005700 100%, #002400 100%, #008a00 100%);
+/* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #b4ddb4 0%, #83c783 0%, #52b152 3%, #008a00 100%, #005700 100%, #002400 100%, #008a00 100%);
+/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#b4ddb4', endColorstr='#008a00', GradientType=0);
+/* IE6-9 */
+border-bottom: 5px solid #333;
+height: 48px;
+padding: 7px 7px 7px 15px;
+width: 100%;
+position: relative;
+z-index: 1;
+}
+/*home tab area*/
+
+.content-wrapper {
+box-shadow: 1px 0 10px 0 #bfc1cc, -1px 0 10px 0 #bfc1cc;
+overflow: hidden;
+margin: 0;
+padding: 0;
+}
+
+.message p {
+color: #ffcc00;
+font-size: 16px;
+font-weight: 700;
+padding-top: 8px;
+text-align: center;
+text-decoration: underline;
+}
+
+.message {
+background: #333 none repeat scroll 0 0;
+border-bottom: 1px solid #ccc;
+}
+
+.col-sm-12.brd-btm.bg-overlay {
+background: rgba(0, 0, 0, 0) radial-gradient(ellipse at center center, rgba(255, 255, 255, 1) 51%, rgba(227, 239, 242, 1) 100%) repeat scroll 0 0;
+}
+
+.shopper-text h1 {
+color: #000;
+font-family: Dosis;
+font-size: 48px;
+font-weight: 700;
+text-align: left;
+}
+
+.shopper-text > p {
+color: #000;
+font-family: open sans;
+font-size: 16px;
+line-height: 31px;
+}
+
+.list-ordered li {
+color: #444;
+font-family: helvetica;
+font-size: 16px;
+line-height: 29px;
+}
+
+.list-ordered a {
+color: #039;
+text-decoration: underline;
+}
+
+.weight {
+font-weight: 700;
+}
+
+.list-two a {
+color: #039;
+font-family: open sans;
+font-size: 14px;
+line-height: 29px;
+text-decoration: underline;
+}
+
+.tips h2 {
+color: #000;
+font-family: dosis;
+font-size: 35px;
+font-weight: 700;
+margin-top: 0;
+padding-left: 8%;
+}
+
+.col-sm-5.brd-left {
+border-left: 3px solid #eee;
+margin-top: 16px;
+}
+
+.col-sm-9.erase_pad {
+padding-right: 0;
+}
+
+.col-sm-12.brd-btm {
+border-bottom: 5px solid #ccc;
+}
+/*slider css*/
+
+.car-slider {
+background: #fff none repeat scroll 0 0;
+}
+
+.car-slider > h1 {
+color: #000;
+font-family: dosis;
+font-size: 40px;
+font-weight: 700;
+text-align: center;
+}
+
+.car-slider > p {
+text-align: center;
+}
+
+.car-slider a {
+color: #039;
+text-decoration: underline;
+}
+
+.slider_container {
+width: 920px;
+margin: auto;
+clear: both;
+background: url(../img/shadow_top.png) no-repeat top center;
+padding: 30px 0 0 0;
+}
+
+.flex-caption {
+position: absolute;
+right: 11px;
+bottom: 20px;
+}
+
+.caption_title_line {
+width: 450px;
+height: 75px;
+padding: 5px 15px 80px;
+background: url(../img/slider_caption_bg.png) repeat;
+color: #eee;
+}
+
+.flex-caption h2 {
+color: #fff;
+font-size: 20px;
+padding: 5px 0 5px 0;
+margin: 0px;
+font-family: 'Ovo', serif;
+}
+
+.flex-container a:active,
+.flexslider a:active {
+outline: none;
+}
+
+.slides,
+.flex-control-nav,
+.flex-direction-nav {
+margin: 0;
+padding: 0;
+list-style: none;
+}
+
+.flexslider {
+width: 100%;
+margin: 0;
+padding: 0 0 30px 0;
+background: url(../img/shadow_bottom.png) no-repeat center bottom;
+}
+
+.flexslider .slides > li {
+display: none;
+}
+/* Hide the slides before the JS is loaded. Avoids image jumping */
+
+.flexslider .slides img {
+max-width: 100%;
+display: block;
+border: 10px #ededed solid;
+}
+
+.flex-pauseplay span {
+text-transform: capitalize;
+}
+
+.slides:after {
+content: ".";
+display: block;
+clear: both;
+visibility: hidden;
+line-height: 0;
+height: 0;
+}
+
+html[xmlns] .slides {
+display: block;
+}
+
+* html .slides {
+height: 1%;
+}
+
+.no-js .slides > li:first-child {
+display: block;
+}
+
+.flexslider {
+position: relative;
+zoom: 1;
+}
+
+.flexslider .slides {
+zoom: 1;
+}
+
+.flexslider .slides > li {
+position: relative;
+}
+
+.flex-container {
+zoom: 1;
+position: relative;
+}
+/* Direction Nav */
+
+.flex-direction-nav li a {
+width: 45px;
+height: 42px;
+margin: 0;
+display: block;
+position: absolute;
+right: 11px;
+cursor: pointer;
+text-indent: -9999px;
+}
+
+.flex-direction-nav li a.next {
+background: url(../img/next.png) no-repeat center;
+bottom: 184px;
+}
+
+.flex-direction-nav li a.prev {
+background: url(../img/prev.png) no-repeat center;
+bottom: 141px;
+}
+
+.flex-direction-nav li a.next:hover {
+background: url(../img/next_a.png) no-repeat center;
+}
+
+.flex-direction-nav li a.prev:hover {
+background: url(../img/prev_a.png) no-repeat center;
+}
+
+.flex-direction-nav li a.disabled {
+opacity: .3;
+filter: alpha(opacity=30);
+cursor: default;
+}
+/* Control Nav */
+
+.flex-control-nav {
+width: 100%;
+position: absolute;
+bottom: -30px;
+text-align: center;
+}
+
+.flex-control-nav li {
+margin: 0 0 0 5px;
+display: inline-block;
+zoom: 1;
+*display: inline;
+}
+
+.flex-control-nav li:first-child {
+margin: 0;
+}
+
+.flex-control-nav li a {
+width: 13px;
+height: 13px;
+display: block;
+cursor: pointer;
+text-indent: -9999px;
+}
+
+.flex-control-nav li a:hover {
+background-position: 0 -13px;
+}
+
+.flex-control-nav li a.active {
+background-position: 0 -26px;
+cursor: default;
+}
+
+@media screen and (max-width: 1000px) {
+.slider_container {
+width: 90%;
+margin: 0 0 0 2%;
+clear: both;
+background: none;
+padding: 30px 0 0 0;
+}
+.flexslider {
+width: 100%;
+margin: 0;
+padding: 0 0 30px 0;
+background: none;
+}
+.flex-direction-nav li a {
+width: 45px;
+height: 42px;
+margin: 0;
+display: block;
+position: absolute;
+right: -10px;
+cursor: pointer;
+text-indent: -9999px;
+}
+.flex-direction-nav li a.next {
+background: url(../img/next.png) no-repeat center;
+bottom: 85px;
+}
+.flex-direction-nav li a.prev {
+background: url(../img/prev.png) no-repeat center;
+bottom: 40px;
+}
+
+}
+/*content area*/
+
+.content_area {
+height: 286px;
+}
+
+.content_area > h1 {
+color: #0d2168;
+font-family: dosis;
+font-size: 60px;
+font-weight: 700;
+margin-bottom: 26px;
+text-align: center;
+}
+
+.amazon_img {
+text-align: center;
+width: 100%;
+}
+
+.kindle_version > p {
+color: #000;
+font-size: 16px;
+line-height: 29px;
+}
+
+.kindle_version a {
+color: #039;
+text-decoration: underline;
+}
+
+.amazon_img > img {
+height: 151px;
+width: 56%;
+}
+
+.amazon_img a {
+color: #039;
+text-decoration: underline;
+}
+
+.col-sm-9 {
+padding-left: 0;
+padding-right: 82px;
+}
+
+#book-input.form-control {
+border: 1px solid #171717;
+border-radius: 0;
+box-shadow: none;
+width: 68%;
+}
+
+.btn-default {
+background-color: #0d2168;
+border-color: #000;
+color: #fff;
+font-size: 18px;
+padding: 3px 12px;
+}
+
+.input-group-btn {
+padding-left: 5px;
+}
+
+.input-group {
+display: block;
+}
+/*table list area*/
+
+.table-list-area > h1 {
+color: #000;
+font-family: tahoma;
+font-size: 48px;
+font-weight: 700;
+padding: 15px 30px 5px;
+text-align: center;
+}
+
+.header-bg h6 {
+background: #eee none repeat scroll 0 0;
+border-bottom: 3px solid #ccc;
+color: maroon;
+font-family: open sans;
+font-size: 20px;
+font-weight: 700;
+padding: 5px 5px 5px 15px;
+}
+
+.list-details h2 {
+color: #2460b2;
+font-family: open sans;
+font-size: 25px;
+font-weight: 700;
+}
+
+.list-details > a {
+text-decoration: underline;
+}
+
+.list-details > ul {
+padding-left: 24px;
+}
+
+.list-details a {
+color: navy;
+font-family: open sans;
+font-size: 15px;
+font-weight: 400;
+line-height: 31px;
+text-decoration: underline;
+}
+/*data text area*/
+
+.data-text > h1 {
+color: #000;
+font-family: dosis;
+font-size: 45px;
+font-weight: 700;
+}
+
+.data-text > p {
+color: #444;
+font-size: 16px;
+line-height: 31px;
+}
+
+.data-table {
+background: #fcf8e3 none repeat scroll 0 0;
+border: 4px solid #c09853;
+border-radius: 16px;
+margin-top: 0;
+padding: 27px;
+}
+
+.data-table > h3 {
+color: #000;
+font-family: Trebuchet MS;
+font-size: 25px;
+margin-top: 0;
+}
+
+.data-table > p {
+color: #999;
+font-size: 16px;
+font-style: italic;
+font-weight: 700;
+}
+
+.car a {
+color: #039;
+font-size: 16px;
+line-height: 28px;
+text-decoration: underline;
+}
+
+.car {
+font-size: 16px;
+}
+
+.data-table h6 a {
+color: #039;
+font-size: 16px;
+font-weight: 700;
+padding-left: 43px;
+text-decoration: underline;
+}
+
+.data-table h5 {
+color: #003366;
+font-size: 16px;
+font-style: italic;
+font-weight: 700;
+padding: 29px 0;
+}
+.col-sm-12.brd-btm:last-child {
+border-bottom: 0 none;
+}
+.select-area {
+color: #444444;
+font-size: 17px;
+line-height: 30px;
+}
+
+select {
+font-size: 18px;
+text-align: center;
+width: 19%;
+}
+/*deals table*/
+
+.deals-table > h1 {
+color: #468847;
+font-family: tahoma;
+font-size: 30px;
+font-weight: 700;
+padding-top: 31px;
+}
+
+thead {
+background: #468847 none repeat scroll 0 0;
+color: #fff;
+}
+
+.table > thead > tr > th {
+border-bottom: medium none;
+border-right: 1px solid #fff;
+}
+
+.table > tbody > tr > td,
+.table > tbody > tr > th,
+.table > tfoot > tr > td,
+.table > tfoot > tr > th,
+.table > thead > tr > td,
+.table > thead > tr > th {
+border-top: medium none;
+}
+
+.green {
+color: #468847;
+font-weight: 700;
+text-align: center;
+}
+
+.table.table-striped a {
+color: #000033;
+font-weight: 700;
+text-decoration: underline;
+}
+
+td:last-child {
+text-align: center;
+}
+
+th:last-child {
+text-align: center;
+}
+
+.table-striped > tbody > tr:nth-of-type(2n+1) {
+background-color: #eeeeee;
+}
+/*footer area*/
+
+.section.footer-bg {
+background: #242d36 none repeat scroll 0 0;
+position: relative;
+width: 100%;
+z-index: 1;
+}
+
+.footer-policy > h6 {
+color: #eee;
+font-size: 16px;
+font-weight: 700;
+}
+
+.footer-policy > p {
+color: #999;
+font-size: 16px;
+}
+
+.button.hvr-back-pulse {
+color: #000;
+font-size: 13px;
+font-weight: 700;
+text-decoration: none;
+}
+
+.button {
+display: inline-block;
+padding: 9px 27px;
+background-color: #79BD9A;
+text-decoration: none;
+color: white;
+}
+
+.footer-txt > p {
+color: #999;
+font-size: 13px;
+padding-top: 15px;
+}
+
+.footer-txt a {
+color: #fff;
+text-decoration: underline;
+}
+
+.footer-policy a {
+color: #fff;
+font-size: 13px;
+text-decoration: underline;
+}
+/* buyers guide tab area*/
+
+#search-input.form-control {
+border: 1px solid #171717;
+border-radius: 0;
+box-shadow: none;
+width: 36%;
+}
+
+#search-input.form-control {
+height: 28px;
+}
+
+button#srch-btn {
+font-size: 14px;
+}
+
+.search-box {
+left: 29%;
+position: absolute;
+top: -40px;
+width: 100%;
+}
+
+#menu1.tab-pane.fade.active.in {
+background: #faf9f4 none repeat scroll 0 0;
+}
+
+.left-table-1 {
+border-bottom: 3px solid #ccc;
+border-left: 2px solid #aaa;
+}
+
+.tab-head > h5 {
+background: #333333 none repeat scroll 0 0;
+color: #fff;
+font-size: 14px;
+font-weight: 700;
+margin-top: 0;
+padding: 5px;
+text-align: center;
+}
+
+.tab-body a {
+color: #000;
+font-size: 20px;
+font-weight: 700;
+padding-left: 28px;
+text-decoration: underline;
+}
+
+.term a:hover {
+text-decoration: underline
+}
+
+.term a {
+color: #2f6192;
+font-size: 14px;
+font-weight: 400;
+line-height: 29px;
+padding-left: 0;
+text-decoration: none;
+}
+
+.guide > h1 {
+background-image: url("../img/topBG2.png");
+background-repeat: repeat;
+color: #000;
+font-family: tahoma;
+font-size: 45px;
+font-weight: 700;
+margin-top: 0;
+padding-left: 18px;
+text-shadow: 1px 1px 1px #cccccc;
+padding-top: 14px;
+}
+
+.guide > p {
+color: #000;
+font-size: 16px;
+font-style: italic;
+font-weight: 700;
+padding-bottom: 15px;
+padding-left: 18px;
+}
+
+.col-sm-9.extra-remem {
+border-left: 1px solid #ccc;
+box-shadow: -2px 3px 15px -2px #bbbdc9;
+padding-right: 0;
+}
+
+.col-sm-12.rem-pad {
+padding-left: 0;
+}
+
+.col-sm-3.common-left-tab {
+padding-left: 0;
+padding-right: 0;
+}
+
+.col-sm-12.erase-right-pad {
+padding-left: 0;
+padding-right: 0;
+}
+
+.tab-body {
+padding-left: 16px;
+}
+
+.col-sm-12.shadow-all {
+box-shadow: 1px 0 10px 0 #bfc1cc, -1px 0 10px 0 #bfc1cc;
+padding-left: 0;
+padding-right: 0;
+}
+
+.guide > h2.all-same {
+color: #900;
+font-family: helvetica;
+font-size: 31px;
+font-weight: 700;
+text-shadow: 1px 1px 1px #cccccc;
+padding-left: 16px;
+}
+
+.main {
+color: #444;
+font-size: 16px;
+line-height: 28px;
+padding-left: 9px;
+}
+/*panel css*/
+
+.panel-title {
+color: #fff;
+font-size: 13px;
+text-shadow: 1px 1px 1px #000;
+}
+
+.panel-default > .panel-heading {
+background-color: green;
+}
+
+.panel-default {
+background: #feffff;
+/* Old browsers */
+background: -moz-linear-gradient(top, #feffff 0%, #ddf1f9 1%);
+/* FF3.6-15 */
+background: -webkit-linear-gradient(top, #feffff 0%, #ddf1f9 1%);
+/* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #feffff 0%, #ddf1f9 1%);
+/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#feffff', endColorstr='#ddf1f9', GradientType=0);
+/* IE6-9 */
+box-shadow: 4px 4px 4px #bbb;
+}
+
+.itl {
+color: #333;
+font-style: italic;
+font-weight: 700;
+}
+
+.pnl-type a {
+color: #039;
+font-size: 13px;
+font-weight: 700;
+line-height: 28px;
+text-decoration: underline;
+}
+
+.col-sm-12 > img {
+padding-bottom: 10px;
+padding-left: 8px;
+padding-top: 10px;
+}
+
+.recomend-bg {
+background: #fef7c5 none repeat scroll 0 0;
+border: 1px solid #fdeaa0;
+border-radius: 0 8px 8px;
+box-shadow: 4px 4px 4px #bbb;
+margin-bottom: 52px;
+margin-left: 9px;
+}
+
+.recomend-bg > img {
+padding: 14px;
+float: left;
+}
+
+.sub-main2 {
+font-size: 12px;
+font-style: italic;
+padding-bottom: 1px;
+}
+
+.sub-main > a {
+color: #039;
+font-size: 17px;
+font-weight: 700;
+text-decoration: underline;
+}
+
+.sub-main {
+margin-bottom: 0;
+padding-top: 9px;
+}
+
+hr {
+border: 0;
+clear: both;
+display: block;
+width: 100%;
+background-color: #7AA03D;
+height: 4px;
+margin-bottom: 0;
+
+}
+.top {
+background: #7aa03d none repeat scroll 0 0;
+border-radius: 0 0 0 5px;
+color: #fff;
+display: inline;
+float: right;
+font: 11px arial;
+padding: 4px;
+}
+a.scroll,a.scroll:hover,a.scroll:focus {
+color: #fff;
+text-decoration: underline;
+}
+
+
+
+.main > img {
+padding-bottom: 19px;
+width: 100%;
+}
+
+.part-one {
+border-right: 4px solid #fdeaa0;
+height: 78px;
+padding: 0 1px;
+}
+
+.part-two {
+padding: 0 1px;
+}
+
+.msp-list.main {
+padding-left: 26px;
+}
+
+.greeg-bio {
+background: #eee none repeat scroll 0 0;
+border: 1px solid #ccc;
+border-radius: 10px;
+color: #555;
+font-size: 12px;
+margin-bottom: 14px;
+margin-left: 11px;
+padding: 5px;
+}
+
+.greeg-bio > img {
+float: left;
+padding-right: 9px;
+}
+
+.greeg-bio > h6 {
+color: maroon;
+font-size: 17px;
+font-weight: 700;
+margin-bottom: 0;
+margin-top: 2px;
+}
+
+.greeg-bio > p {
+margin-bottom: 0;
+}
+
+.greeg-bio a {
+color: #039;
+text-decoration: underline;
+}
+
+.comments {
+padding: 25px;
+background: #F5FAF8;
+-webkit-border-top-left-radius: 10px;
+-moz-border-radius-topleft: 10px;
+border-top-left-radius: 10px;
+-webkit-border-top-right-radius: 10px;
+-moz-border-radius-topright: 10px;
+border-top-right-radius: 10px;
+border: 1px solid #bce8f1;
+border-bottom: 0px;
+margin-left: 11px;
+}
+
+.comments h5 {
+padding: 0px;
+margin: 0px;
+margin-top: -10px;
+font: bold 27px arial;
+color: #063;
+}
