@@ -1,0 +1,245 @@
+@media (min-width:992px) and (max-width: 1199px) {
+.nav {
+padding-left: 35%;
+}
+.honest {
+padding-left: 16%;
+}
+/*home tab code*/
+.shopper-text h1 {
+font-size: 45px;
+}
+.list-ordered li {
+font-size: 15px;
+line-height: 28px;
+}
+.slider_container {
+margin: 0;
+width: 100%;
+}
+.flex-direction-nav li a {
+height: 35px;
+right: 10px;
+width: 36px;
+}
+.flex-direction-nav li a.next {
+bottom: 210px;
+}
+.flex-direction-nav li a.prev {
+
+bottom: 165px;
+}
+.table-list-area > h1 {
+padding: 35px 30px 5px;
+}
+.pnl-type {
+padding-left: 14px;
+}
+.part-one {
+height: 96px;
+}
+
+}
+/*tab view*/
+@media (min-width:768px) and (max-width: 991px) {
+.gregg img {
+height: 96px;
+width: 121%;
+}
+.nav {
+padding-left: 33%;
+}
+.honest {
+padding-left: 10%;
+}
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {
+font-size: 16px;
+}
+.message p {
+font-size: 15px;
+padding-top: 2px;
+}
+.shopper-text h1 {
+font-size: 33px;
+}
+.shopper-text > p {
+font-size: 14px;
+line-height: 26px;
+margin-bottom: 0;
+}
+.list-ordered li {
+font-size: 14px;
+line-height: 20px;
+}
+.tips h2 {
+font-size: 30px;
+}
+.list-two a {
+font-size: 13px;
+line-height: 27px;
+}
+.car-slider > h1 {
+font-size: 33px;
+}
+.slider_container {
+margin: 0;
+padding: 10px 0 0;
+width: 100%;
+}
+.flex-direction-nav li a {
+height: 31px;
+right: 10px;
+width: 32px;
+}
+.flex-direction-nav li a.prev {
+bottom: 154px;
+}
+.flex-direction-nav li a.next {
+bottom: 200px;
+}
+.content_area > h1 {
+font-size: 50px;
+margin-bottom: 21px;
+}
+.kindle_version > p {
+font-size: 14px;
+line-height: 24px;
+}
+.amazon_img > img {
+height: 160px;
+width: 85%;
+}
+.amazon_img > p {
+font-size: 13px;
+}
+.form-control {
+font-size: 10px;
+height: 29px;
+}
+#book-input.form-control {
+width: 61%;
+}
+.btn-default {
+font-size: 15px;
+}
+.table-list-area > h1 {
+font-size: 36px;
+padding: 2px 30px 0;
+}
+.header-bg h6 {
+font-size: 18px;
+}
+.list-details h2 {
+font-size: 20px;
+}
+.list-details a {
+font-size: 13px;
+line-height: 27px;
+}
+.data-text > h1 {
+font-size: 35px;
+}
+.data-text > p {
+font-size: 14px;
+line-height: 25px;
+}
+.data-table > h3 {
+font-size: 22px;
+}
+.data-table > p {
+font-size: 14px;
+}
+.data-table {
+border-radius: 14px;
+padding: 20px;
+}
+.data-table h6 a {
+
+font-size: 14px;
+}
+.data-table h5 {
+font-size: 14px;
+padding: 18px 0;
+}
+.car a {
+font-size: 14px;
+line-height: 23px;
+}
+.select-area {
+
+font-size: 15px;
+}
+select {
+font-size: 16px;
+width: 26%;
+}
+.deals-table > h1 {
+font-size: 28px;;
+padding-top: 4px;
+}
+.footer-policy > h6 {
+font-size: 13px;
+}
+.footer-policy a {
+font-size: 12px;
+}
+.footer-policy > p {
+font-size: 14px;
+}
+.button.hvr-back-pulse {
+font-size: 12px;
+}
+.footer-txt > p {
+font-size: 12px;
+padding-top: 12px;
+}
+/*buyers guide css*/
+.tab-head > h5 {
+font-size: 13px;
+}
+.tab-body a {
+font-size: 19px;
+padding-left: 2px
+}
+.term a {
+font-size: 13px;
+line-height: 27px;
+}
+.term {
+padding-left: 29px;
+}
+.guide > h1 {
+font-size: 39px;
+}
+.guide > p {
+font-size: 15px;
+padding-bottom: 1px;
+}
+.guide > h2.all-same {
+font-size: 28px;
+}
+.main {
+font-size: 15px;
+line-height: 23px;
+}
+.pnl-type {
+padding-left: 7px;
+}
+.pnl-type a {
+  font-size: 11px;
+  line-height: 24px;
+}
+.part-one {
+  height: 107px;
+}
+.comments h5 {
+  font: bold 24px arial;
+}
+.greeg-bio > h6 {
+  font-size: 16px;
+}
+}
+
+/*mobile view*/
+@media (min-width:320px) and (max-width: 767px) {}

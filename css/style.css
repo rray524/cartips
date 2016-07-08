@@ -33,7 +33,10 @@
                                         text-align: right;    
                                     }
                                     /*tab content area*/
-                                    
+                                    .gregg img {
+                                          position: relative;
+                                          z-index: 222;
+                                        }
                                     .tab-content-area {
                                         position: absolute;
                                         top: 51px;
@@ -435,9 +438,7 @@
                                             background: url(../img/prev.png) no-repeat center;
                                             bottom: 40px;
                                         }
-                                        .flex-caption {
-                                            display: none;
-                                        }
+                                      
                                     }
                                     /*content area*/
                                     
@@ -986,14 +987,15 @@
                                     }
                                     
                                     .greeg-bio {
-                                        background: #eee none repeat scroll 0 0;
-                                        border: 1px solid #ccc;
-                                        border-radius: 10px;
-                                        color: #555;
-                                        font-size: 12px;
-                                        margin-bottom: 14px;
-                                        padding: 5px;
-                                    }
+                                          background: #eee none repeat scroll 0 0;
+                                          border: 1px solid #ccc;
+                                          border-radius: 10px;
+                                          color: #555;
+                                          font-size: 12px;
+                                          margin-bottom: 14px;
+                                          margin-left: 11px;
+                                          padding: 5px;
+                                        }
                                     
                                     .greeg-bio > img {
                                         float: left;
@@ -1028,6 +1030,7 @@
                                         border-top-right-radius: 10px;
                                         border: 1px solid #bce8f1;
                                         border-bottom: 0px;
+                                        margin-left: 11px;
                                     }
                                     
                                     .comments h5 {
