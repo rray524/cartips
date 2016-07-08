@@ -450,6 +450,7 @@ select {
 .deals-table > h1 {
   font-size: 23px;
   padding-top: 0;
+  text-align: center;
 }
 .car {
   font-size: 12px;
@@ -572,7 +573,9 @@ select {
 .tab-body {
   padding-left: 0;
 }
-
+.col-sm-12.brd-btm:last-child {
+  padding: 0;
+}
 }
 /*extra media quaries*/
 @media (min-width:400px) and (max-width: 767px) {
