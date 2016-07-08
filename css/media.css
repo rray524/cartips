@@ -465,6 +465,7 @@ select {
 }
 .table {
   font-size: 8px;
+  font-weight: 700;
 }
 .footer-policy > h6 {
   font-size: 13px;
